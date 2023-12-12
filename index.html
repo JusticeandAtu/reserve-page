@@ -11,7 +11,8 @@
   -->
   <title>Peak Pamper Salon</title>
   <meta name="title" content="Peak Pamper Salon">
-  <meta name="description" content="welcome.....">
+  <meta name="keywords" content="zambian salon, peakpamper, manicure, zambian barbershop, beauty shop">
+  <meta name="description" content="One stop shop for all things beauty. Healthy hair care, manicures, pedicures, facials,waxing,make up, wig installations,braids,lashes,eyebrows and barbershop services">
 
   <!-- 
     - favicon
@@ -40,8 +41,17 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="assets/images/hero-banner.jpg">
 
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("NCsLwy5neCpyqEak8");
+   })();
+</script>
+<script src="assets/js/email.js"></script>
 </head>
 
 <body id="top">
@@ -90,7 +100,7 @@
         <a href="#gallery" class="btn has-before">
           <span class="span">Gallery</span>
 
-          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          <!-- <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> -->
         </a>
 
       </div>
@@ -113,12 +123,10 @@
         style="background-image: url('./assets/images/banner-hero.jpg')">
         <div class="container">
 
-          <h1 class="h1 hero-title"></h1>
+          <!-- <h3 class="slogan">Step Into Luxury</h3> -->
 
           <p class="hero-text">
-            Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            suspendisse
-            ultrices gravida
+            Our mission is to elevate your beauty and wellness experience. We are comitted to delivering exceptional services with a focus on personalized care, trendsetting styles and a tranquil atomsphere, ensuring every visit leaves you feeling refreshed, confident and pampered at the peak of perfection.
           </p>
 
           <!-- <a href="#" class="btn has-before">
@@ -144,10 +152,10 @@
       <section class="section service" id="services" aria-label="services">
         <div class="container">
 
-          <h2 class="h2 section-title text-center">Service We Provide</h2>
+          <h2 class="h2 section-title text-center">Services We Provide</h2>
 
           <p class="section-text text-center">
-            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+            Let Us Transform Your Look And Enhance Your Confidence.
           </p>
 
           <ul class="grid-list">
@@ -164,7 +172,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We have expert Barbers for that
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -186,7 +194,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Get Your Hair Looking Refreshed.
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -208,7 +216,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Beauty meets serenity with us
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -230,7 +238,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Step into the luxury
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -252,7 +260,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Get transformed
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -274,7 +282,7 @@
                 </h3>
 
                 <p class="card-text">
-                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Manifest your inner beauty
                 </p>
 
                 <a href="#" class="card-btn" aria-label="more">
@@ -304,7 +312,7 @@
           <h2 class="h2 section-title text-center">Our Prices</h2>
 
           <p class="section-text text-center">
-            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+            Price List..
           </p>
 
           <div class="pricing-tab-container">
@@ -389,7 +397,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="89">$89</data>
+                  <data class="card-price" value="89">K</data>
 
                 </div>
               </li>
@@ -408,7 +416,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="45">$45</data>
+                  <data class="card-price" value="45">K</data>
 
                 </div>
               </li>
@@ -427,7 +435,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="35">$35</data>
+                  <data class="card-price" value="35">K</data>
 
                 </div>
               </li>
@@ -446,7 +454,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="56">$56</data>
+                  <data class="card-price" value="56">K</data>
 
                 </div>
               </li>
@@ -465,7 +473,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="27">$27</data>
+                  <data class="card-price" value="27">K</data>
 
                 </div>
               </li>
@@ -484,7 +492,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="63">$63</data>
+                  <data class="card-price" value="63">K</data>
 
                 </div>
               </li>
@@ -503,7 +511,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="43">$43</data>
+                  <data class="card-price" value="43">K</data>
 
                 </div>
               </li>
@@ -522,7 +530,7 @@
                     <p class="card-text">Clean & simple 30-40 minutes</p>
                   </div>
 
-                  <data class="card-price" value="74">$74</data>
+                  <data class="card-price" value="74">K</data>
 
                 </div>
               </li>
@@ -551,8 +559,7 @@
               <h2 class="h2 section-title">Gallery</h2>
 
               <p class="section-text">
-                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
-                suspendisse
+                Peak Pamper in pictures
               </p>
             </div>
 
@@ -679,40 +686,44 @@
 
             <div class="card-content">
 
-              <h2 class="h2 section-title">Make Appointment</h2>
+              <h2 class="h2 section-title">Make An Appointment</h2>
 
               <p class="section-text">
-                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
-                suspendisse
+                Let Us Know When You're Coming Through
               </p>
 
               <form action="" class="appoin-form">
 
                 <div class="input-wrapper">
-                  <input type="text" name="name" placeholder="Your Full Name" required class="input-field">
+                  <input type="text" id="name" placeholder="Your Full Name" required class="input-field">
 
-                  <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+                  <input type="email" id="email_address" placeholder="Email Address" required class="input-field">
                 </div>
 
                 <div class="input-wrapper">
-                  <input type="text" name="phone" placeholder="Phone Number" required class="input-field">
+                  <input type="text" id="phone" placeholder="Phone Number" required class="input-field">
 
-                  <select name="category" class="input-field">
+                  <select id="hairdresser" class="input-field">
 
-                    <option value="Select category">Select category</option>
-                    <option value="Beauty & spa">Beauty & spa</option>
-                    <option value="Body massage">Body massage</option>
-                    <option value="Shaving & Facial">Shaving & Facial</option>
-                    <option value="Hair Color">Hair Color</option>
-
+                    <option value="Select hairdresser ">Select Hairdresser</option>
+                    <!-- <option value="T'Challa">T'Challa</option> -->
+                    <option value=" Jeff">Barber Jeff</option>
+                    <option value="Leonard">Barber Leonard</option>
+                    <option value="Carmie">Barber Carmie</option>
+                    <option value="Margaret">Margaret</option>
+                    <option value="Patricia">Patricia</option>
+                    <option value="Precious">Precious</option>
+                    <option value="Joyce">Joyce</option>
+                    <option value="Claris">Claris</option>
+                    
                   </select>
                 </div>
 
-                <input type="date" name="date" required class="input-field date">
+                <input type="date" id="date" required class="input-field date">
 
-                <textarea name="message" placeholder="Write Message" required class="input-field"></textarea>
+                <textarea id="message" placeholder="Write Message" required class="input-field"></textarea>
 
-                <button type="submit" class="form-btn">
+                <button type="submit" class="form-btn" onclick="sendAppoin()">
                   <span class="span">Appointment Now</span>
 
                   <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
@@ -731,6 +742,47 @@
 
         </div>
       </section>
+
+
+      <!-- THE TEAM -->
+
+      <h2 class="h2 section-title text-center">OUR TEAM</h2>
+      <ul class="grid-list">
+
+        <li data-filter="shaving">
+          <div class="pricing-card">
+
+            <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+              <img src="./assets/images/shipp.webp" width="90" height="90" alt="Hair Cutting & Fitting"
+                class="img-cover">
+            </figure>
+
+            <div class="wrapper">
+              <h3 class="h3 card-title">Precious</h3>
+
+              <p class="card-text">Simplicity is the ultimate sophistication with this lady, anything you want done to your hair, she can do better.</p>
+            </div>
+
+          </div>
+        </li>
+
+        <li data-filter="shaving">
+          <div class="pricing-card">
+
+            <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+              <img src="./assets/images/shipp.webp" width="90" height="90" alt="Shaving & Facial"
+                class="img-cover">
+            </figure>
+
+            <div class="wrapper">
+              <h3 class="h3 card-title">Margaret</h3>
+
+              <p class="card-text">If you can imagine it and describe it, Amara ca manifest it. Does an excellent fishtail</p>
+            </div>
+
+          </div>
+        </li>
+      </ul>
 
     </article>
   </main>
@@ -862,9 +914,9 @@
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+  <!-- <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
     <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
+  </a> -->
 
 
 
