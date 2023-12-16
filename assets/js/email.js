@@ -4,7 +4,7 @@ function sendAppoin() {
       email: document.getElementById("emailaddress").value,
       phone: document.getElementById("phone").value,
       hairdresser: document.getElementById("hairdresser").value,
-      category: document.getElementById("serv-category").value,
+      category: document.getElementById("servcategory").value,
       date: document.getElementById("date").value,
       time: document.getElementById("time").value,
       message: document.getElementById("message").value
