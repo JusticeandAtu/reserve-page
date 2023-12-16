@@ -5,7 +5,8 @@ function sendAppoin() {
       phone: document.getElementById("phone").value,
       hairdresser: document.getElementById("hairdresser").value,
       date: document.getElementById("date").value,
-      message: document.getElementById("message").value,
+      time: document.getElementById("time").value,
+      message: document.getElementById("message").value
     };
   
     const serviceID = "service_z9o7naz";
@@ -18,11 +19,12 @@ function sendAppoin() {
           document.getElementById("phone").value = "";
           document.getElementById("hairdresser").value = "";
           document.getElementById("date").value = "";
+          document.getElementById("time").value = "";
           document.getElementById("message").value = "";
           
        
           console.log(res);
-          alert("Request Submitted Successfully!!")
+          alert("Request Submitted Successfully!")
   
       })
       .catch(err=>console.log(err));
