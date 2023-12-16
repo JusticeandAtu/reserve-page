@@ -41,7 +41,7 @@ const teamMembers = [
         name: "Joyce Mwala",
         experience: "1 year",
         specialization: "Salon",
-        image: "./assets/images/member T(7).jpg"
+        image: "./assets/images/member (7).jpg"
     },
         
 ];
