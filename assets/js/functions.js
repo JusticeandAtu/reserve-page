@@ -1,6 +1,7 @@
  // Function to generate team members HTML
  function generateTeamHTML() {
     const teamSection = document.getElementById("team");
+    // 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
 
     teamMembers.forEach(member => {
         const memberLi = document.createElement("li");
