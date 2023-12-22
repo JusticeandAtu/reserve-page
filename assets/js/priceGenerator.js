@@ -20,7 +20,7 @@
                 <p class="card-text">Clean & simple 30-40 minutes</p>
             </div>
 
-            <data class="card-price" value="89">${price.price}</data>
+            <data class="card-price" value="">K${price.price}</data>
 
             </div>
         </li>    
