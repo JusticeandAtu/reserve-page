@@ -10,7 +10,7 @@ const priceList = [
     },
     {
         serviceName: 'shavingFacial',
-        price: 5,
+        price: 100,
         title: "Shaving & Facial",
         filter:"shaving",
         picture: "./assets/images/pricing-2.jpg",
