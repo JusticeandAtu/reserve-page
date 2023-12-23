@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dash Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="cms.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <header class="sidebar-header">
+          <button
+            type="button"
+            class="sidebar-burger"
+            onclick="toggleSidebar()"
+          ></button>
+          <img src="./cm-assets/blocklord-logo.png" class="sidebar-logo" />
+        </header>
+        <nav class="sidebar-nav">
+          <button type="button">
+            <img src="./cm-assets/icon-home.svg" />
+            <span>Home</span>
+          </button>
+          <button type="button">
+            <img src="./cm-assets/icon-settings.svg" />
+            <span style="animation-delay: 0.1s">Settings</span>
+          </button>
+          <button type="button">
+            <img src="./cm-assets/icon-levels.svg" />
+            <span style="animation-delay: 0.2s">Levels</span>
+          </button>
+          <button type="button">
+            <img src="./cm-assets/icon-accounts.svg" />
+            <span style="animation-delay: 0.3s">Accounts</span>
+          </button>
+        </nav>
+        <footer class="sidebar-footer">
+          <button type="button">
+            <img src="./cm-assets/icon-lock.svg" />
+            <span>Logout</span>
+          </button>
+        </footer>
+      </div>
+    </aside>
+    <div class="container">
+      <div class="input-form">
+        <h1>Price<span class="us">List</span></h1>
+
+            <div class="links">
+              <a href="">
+                <p class="url">Make Changes With The Pricelist</p>
+              </a>
+            </div>
+      
+       
+    
+        <h1>Team</h1>
+        <p>Image URLS</p>
+        <div class="links">
+          <a href="">
+            <p class="url">Make Changes With The Pricelist</p>
+          </a>
+        </div>
+       
+    </div>
+    </div>
+
+
+    <script src="cms.js"></script>
+    <script type="text/javascript">
+      const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
