@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color:#131313;
+}
+.container{
+    margin-left: 80px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#4b7c61;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:#ffffffc4 ;
+}
+a{
+    text-decoration: none;
+}
+.url{
+    color: yellow;
+}    
+
+.links{
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2rem;
+    background-color: #a9a9a90a;
+}
+
+.update-btn{
+    padding: 9px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #191919;
+    border-radius: 10px;
+    color: #fff;
+}
