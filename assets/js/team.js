@@ -5,7 +5,7 @@ const teamMembers = [
         name: "Margaret Nkonde",
         experience: "3 years",
         specialization: "Haircuts, Coloring",
-        image: "./assets/images/member (1).jpg"
+        image: "https://photos.app.goo.gl/qseJZjbA52VVpVAh9"
     },
     {
         name: "Patricia Bwalya",
