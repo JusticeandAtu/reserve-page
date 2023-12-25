@@ -11,6 +11,9 @@ const gallerySamples = [
    },
    {
     ImageUrl:"./assets/images/gallery-4.jpg",
+   },
+   {
+    ImageUrl:"https://photos.google.com/share/AF1QipOQwWBjpEJMi_1xo707VXRn1qCTYUDmvkglMyo_J457imhustYO6qYoPEWbL8QNmA/photo/AF1QipM9ImptgEE0PFYJzIKJWZvL8M80JPzLcVqY1byn?key=dHU2V1l5Rkt2TWNaOFZYN2hJMnZqSXRxMVd6cEpR"
    }
              
 ];
