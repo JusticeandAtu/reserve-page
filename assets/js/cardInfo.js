@@ -13,7 +13,7 @@ const gallerySamples = [
     ImageUrl:"./assets/images/gallery-4.jpg",
    },
    {
-    ImageUrl:"https://photos.google.com/share/AF1QipORb7Wp1Ltb0grUjahNtliXxbe1SuJEVW3GzexIhE-OfXbGu-pQnEl7NIfRvQp7mw/photo/AF1QipMTa4e3rWgJ8YaUpZkT6hq5hCTjkIxWC5k8vkNN?key=YUx2SjRwRjg3WTl0ajIza3kxZ2RudXRvVUdmS09B"
+    ImageUrl:"https://pin.it/4kPohM4"
    }
              
 ];
