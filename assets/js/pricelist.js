@@ -10,8 +10,8 @@ const priceList = [
     },
     {
         serviceName: 'shavingFacial',
-        price: 100,
-        title: "Shaving & Facial",
+        price: 250,
+        title: "Shaving & Facial with head massage",
         filter:"shaving",
         picture: "./assets/images/pricing-2.jpg",
         text: "Clean & simple 30-40 minutes"
