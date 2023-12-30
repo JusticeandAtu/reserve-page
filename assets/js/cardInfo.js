@@ -10,7 +10,7 @@ const gallerySamples = [
     ImageUrl:"./assets/images/gallery-3.jpg",
    },
    {
-    ImageUrl:"./assets/images/gallery-4.jpg",
+    ImageUrl:"https://lh3.googleusercontent.com/pw/ABLVV84iapn2F4req3CiYOtbDklTD3tgADUnU7qPb_g4CvmCcmikgNFAeoLW5EKDtzwSk1lpNqFzY_lVS64_xITZCXM-oaQeBPYxqewA0GwTyV4_McLSpQQ=s224-p-k",
    },
 
    {
