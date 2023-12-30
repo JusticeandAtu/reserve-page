@@ -14,7 +14,7 @@ const priceList = [
         title: "Shaving & Facial with head massage",
         filter:"shaving",
         picture: "./assets/images/pricing-2.jpg",
-        text: "Clean & simple 30-40 minutes"
+        text: "Clean & simple , 1 hour"
     },
     {
         serviceName: 'hairColor',
@@ -42,11 +42,11 @@ const priceList = [
     },
     {
         serviceName: 'facialFace',
-        price: 25,
+        price: 250,
         filter:"face-washing",
         picture: "./assets/images/pricing-6.jpg",
-        title: "Facial & Face Wash",
-        text: "Clean & simple 30-40 minutes",
+        title: "Classic Facial",
+        text: "Clean & simple 45 minutes",
     },
     {
         serviceName: 'backBone',
