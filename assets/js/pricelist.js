@@ -14,7 +14,7 @@ const priceList = [
         title: "Shaving & Facial with head massage",
         filter:"shaving",
         picture: "./assets/images/pricing-2.jpg",
-        text: "Clean & simple , 1 hour"
+        text: "Clean & simple  1 hour"
     },
     {
         serviceName: 'hairColor',
