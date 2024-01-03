@@ -36,7 +36,7 @@ function sendAppoin() {
       window.open(foreignPage, '_blank');
   
   }
-
+/*
   function openForeign() {
     // link sample
     var foreignPage = 'https://www.fresha.com/a/peakpamper-salon-spa-lusaka-9138b-kasiya-crescent-kalundu-x5xhlemt/booking?menu=true&offerItems=sv%3A15719783';
@@ -44,4 +44,5 @@ function sendAppoin() {
       window.open(foreignPage, '_blank');
   }
   // event listener to the button
-document.getElementById('appointment-btn').addEventListener('click', open+Foreign);
+document.getElementById('appointment-btn').addEventListener('click', openForeign);
+*/
