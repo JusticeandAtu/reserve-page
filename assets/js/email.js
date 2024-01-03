@@ -44,4 +44,4 @@ function sendAppoin() {
       window.open(foreignPage, '_blank');
   }
   // event listener to the button
-document.getElementById('appointment-btn').addEventListener('click', openForeign);
+document.getElementById('appointment-btn').addEventListener('click', open+Foreign);
