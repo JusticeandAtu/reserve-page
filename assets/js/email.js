@@ -30,5 +30,16 @@ function sendAppoin() {
   
       })
       .catch(err=>console.log(err));
+
+      let foreignPage = pigs;
+
+      window.open(foreignPage, '_blank');
   
+  }
+
+  function openForeign() {
+    // link sample
+    let foreignPage = pigs;
+
+      window.open(foreignPage, '_blank');
   }
