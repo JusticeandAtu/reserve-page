@@ -17,10 +17,9 @@
             <div class="wrapper">
                 <h3 class="h3 card-title">${price.title}</h3>
 
-                <p class="card-text">Clean & simple 30-40 minutes</p>
+                <p class="card-text">${price.text}</p>
             </div>
 
-            <data class="card-price" value="">K${price.price}</data>
 
             </div>
         </li>    
