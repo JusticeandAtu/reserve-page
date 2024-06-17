@@ -154,6 +154,7 @@ body {
   color: var(--sonic-silver);
   font-size: 1.6rem;
   line-height: 2;
+  pointer-events: none;
 }
 
 :focus-visible { outline-offset: 4px; }
